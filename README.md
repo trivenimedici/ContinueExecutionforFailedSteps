@@ -59,8 +59,8 @@ Note: this feature is only supported for @Then Checks not for @When and @Given
 
 Add the following to the step definition file where the test execution needs to be continued inspite of some exceptions:
 
-   @ContinueNextStepsFor(AssertionError.class)
-   @Then("^------------------$")
+      @ContinueNextStepsFor(AssertionError.class)
+      @Then("^------------------$")
 
 
 
