@@ -16,45 +16,45 @@ Note: this feature is only supported for @Then Checks not for @When and @Given
 
 
 
-<dependency>
-  <groupId>com.github.slaout.fork.info.cukesthreads</groupId>
-  <artifactId>cucumber-core</artifactId>
-  <version>1.2.4</version>
-</dependency>
+    <dependency>
+         <groupId>com.github.slaout.fork.info.cukesthreads</groupId>
+          <artifactId>cucumber-core</artifactId>
+          <version>1.2.4</version>
+    </dependency>
 
 
-<dependency>
-  <groupId>com.github.slaout.fork.info.cukesthreads</groupId>
-  <artifactId>cucumber-java</artifactId>
-  <version>1.2.4</version>
-</dependency>
+     <dependency>
+         <groupId>com.github.slaout.fork.info.cukesthreads</groupId>
+         <artifactId>cucumber-java</artifactId>
+         <version>1.2.4</version>
+     </dependency>
 
 
-<dependency>
-  <groupId>com.github.slaout.fork.info.cukesthreads</groupId>
-  <artifactId>cucumber-spring</artifactId>
-  <version>1.2.4</version>
-</dependency>
+      <dependency>
+         <groupId>com.github.slaout.fork.info.cukesthreads</groupId>
+         <artifactId>cucumber-spring</artifactId>
+         <version>1.2.4</version>
+      </dependency>
 
 
-<dependency>
-  <groupId>com.github.slaout.fork.info.cukesthreads</groupId>
-  <artifactId>cucumber-junit</artifactId>
-  <version>1.2.4</version>
-</dependency>
+      <dependency>
+            <groupId>com.github.slaout.fork.info.cukesthreads</groupId>
+           <artifactId>cucumber-junit</artifactId>
+           <version>1.2.4</version>
+      </dependency>
 
-<dependency>
-    <groupId>org.springframework</groupId>
-    <artifactId>spring-context</artifactId>
-    <version>4.0.2.RELEASE</version>
-</dependency>
+      <dependency>
+          <groupId>org.springframework</groupId>
+          <artifactId>spring-context</artifactId>
+         <version>4.0.2.RELEASE</version>
+      </dependency>
 
 
-<dependency>
-    <groupId>org.springframework</groupId>
-    <artifactId>spring-test</artifactId>
-    <version>4.0.2.RELEASE</version>
-</dependency>
+      <dependency>
+         <groupId>org.springframework</groupId>
+         <artifactId>spring-test</artifactId>
+         <version>4.0.2.RELEASE</version>
+     </dependency>
 
 
 Add the following to the step definition file where the test execution needs to be continued inspite of some exceptions:
