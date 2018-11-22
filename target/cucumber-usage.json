@@ -1,0 +1,74 @@
+[
+  {
+    "source": "^user is on landing page$",
+    "steps": [
+      {
+        "name": "user is on landing page",
+        "aggregatedDurations": {
+          "average": 41.961982968,
+          "median": 41.961982968
+        },
+        "durations": [
+          {
+            "duration": 41.961982968,
+            "location": "feature1.feature:4"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^user login into the application with username and password$",
+    "steps": [
+      {
+        "name": "user login into the application with username and password",
+        "aggregatedDurations": {
+          "average": 4.999721441,
+          "median": 4.999721441
+        },
+        "durations": [
+          {
+            "duration": 4.999721441,
+            "location": "feature1.feature:5"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^cards are displayed$",
+    "steps": [
+      {
+        "name": "cards are displayed",
+        "aggregatedDurations": {
+          "average": 0.000112818,
+          "median": 0.000112818
+        },
+        "durations": [
+          {
+            "duration": 0.000112818,
+            "location": "feature1.feature:7"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^all The elements are enabled$",
+    "steps": [
+      {
+        "name": "all The elements are enabled",
+        "aggregatedDurations": {
+          "average": 4.999957334,
+          "median": 4.999957334
+        },
+        "durations": [
+          {
+            "duration": 4.999957334,
+            "location": "feature1.feature:8"
+          }
+        ]
+      }
+    ]
+  }
+]

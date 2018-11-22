@@ -1,0 +1,89 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 3,
+        "name": "home page default login",
+        "description": "",
+        "id": "application-login;home-page-default-login",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 41961982968,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "user is on landing page",
+            "match": {
+              "location": "stepDefinition1.user_is_on_lading_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 4999721441,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user login into the application with username and password",
+            "match": {
+              "location": "stepDefinition1.user_login_into_the_application_with_username_and_password()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2693700,
+              "error_message": "java.lang.AssertionError: failed step\r\n\tat org.junit.Assert.fail(Assert.java:88)\r\n\tat stepDefinitions.stepDefinition1.Home_page_is_populated(stepDefinition1.java:46)\r\n\tat ✽.Then Home page is populated(feature1.feature:6)\r\n",
+              "status": "failed"
+            },
+            "line": 6,
+            "name": "Home page is populated",
+            "match": {
+              "location": "stepDefinition1.Home_page_is_populated()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 112818,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "cards are displayed",
+            "match": {
+              "location": "stepDefinition1.cards_are_displayed()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 4999957334,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "all The elements are enabled",
+            "match": {
+              "location": "stepDefinition1.all_rhe_elements_are_enabled()"
+            },
+            "keyword": "And "
+          }
+        ]
+      }
+    ],
+    "name": "application login",
+    "description": "",
+    "id": "application-login",
+    "keyword": "Feature",
+    "uri": "feature1.feature",
+    "tags": [
+      {
+        "line": 1,
+        "name": "@Work"
+      }
+    ]
+  }
+]

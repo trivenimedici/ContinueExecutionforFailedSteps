@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="1" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="51.964468">
+<testcase classname="application login" name="home page default login" time="51.964468">
+<failure message="java.lang.AssertionError: failed step&#13;&#10;&#9;at org.junit.Assert.fail(Assert.java:88)&#13;&#10;&#9;at stepDefinitions.stepDefinition1.Home_page_is_populated(stepDefinition1.java:46)&#13;&#10;&#9;at ✽.Then Home page is populated(feature1.feature:6)&#13;&#10;"><![CDATA[Given user is on landing page...............................................passed
+When user login into the application with username and password.............passed
+Then Home page is populated.................................................failed
+And cards are displayed.....................................................passed
+And all The elements are enabled............................................passed
+
+StackTrace:
+java.lang.AssertionError: failed step
+	at org.junit.Assert.fail(Assert.java:88)
+	at stepDefinitions.stepDefinition1.Home_page_is_populated(stepDefinition1.java:46)
+	at ✽.Then Home page is populated(feature1.feature:6)
+]]></failure>
+</testcase>
+</testsuite>

@@ -1,0 +1,14 @@
+@Work
+Feature: application login
+
+  Scenario: home page default login                                 # feature1.feature:3
+    Given user is on landing page                                   # stepDefinition1.user_is_on_lading_page()
+    When user login into the application with username and password # stepDefinition1.user_login_into_the_application_with_username_and_password()
+    Then Home page is populated                                     # stepDefinition1.Home_page_is_populated()
+      java.lang.AssertionError: failed step
+      	at org.junit.Assert.fail(Assert.java:88)
+      	at stepDefinitions.stepDefinition1.Home_page_is_populated(stepDefinition1.java:46)
+      	at ✽.Then Home page is populated(feature1.feature:6)
+
+    And cards are displayed                                         # stepDefinition1.cards_are_displayed()
+    And all The elements are enabled                                # stepDefinition1.all_rhe_elements_are_enabled()
