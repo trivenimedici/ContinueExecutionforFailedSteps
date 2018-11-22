@@ -14,21 +14,29 @@ In the case where there are assertions in the @Then in the feature file.
 To implement this feature the following depencies needs to be added.
 Note: this feature is only supported for @Then Checks not for @When and @Given
 
+
+
 <dependency>
   <groupId>com.github.slaout.fork.info.cukesthreads</groupId>
   <artifactId>cucumber-core</artifactId>
   <version>1.2.4</version>
 </dependency>
+
+
 <dependency>
   <groupId>com.github.slaout.fork.info.cukesthreads</groupId>
   <artifactId>cucumber-java</artifactId>
   <version>1.2.4</version>
 </dependency>
+
+
 <dependency>
   <groupId>com.github.slaout.fork.info.cukesthreads</groupId>
   <artifactId>cucumber-spring</artifactId>
   <version>1.2.4</version>
 </dependency>
+
+
 <dependency>
   <groupId>com.github.slaout.fork.info.cukesthreads</groupId>
   <artifactId>cucumber-junit</artifactId>
@@ -40,6 +48,8 @@ Note: this feature is only supported for @Then Checks not for @When and @Given
     <artifactId>spring-context</artifactId>
     <version>4.0.2.RELEASE</version>
 </dependency>
+
+
 <dependency>
     <groupId>org.springframework</groupId>
     <artifactId>spring-test</artifactId>
